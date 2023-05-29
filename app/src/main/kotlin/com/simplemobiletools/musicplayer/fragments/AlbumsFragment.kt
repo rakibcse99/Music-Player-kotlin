@@ -93,7 +93,7 @@ class AlbumsFragment(context: Context, attributeSet: AttributeSet) : MyViewPager
             adapter.updateItems(albums, forceUpdate = true)
         }
     }
-
+//
     override fun setupColors(textColor: Int, adjustedPrimaryColor: Int) {
         albums_placeholder.setTextColor(textColor)
         albums_fastscroller.updateColors(adjustedPrimaryColor)
